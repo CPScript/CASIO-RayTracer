@@ -36,7 +36,7 @@ choice = input("| Make Number Selection :")
 if choice == "1":
     print("Loading...")
     clear()
-    call(["python", "asset/main.py"])
+    call(["python", "asset/ray.py"])
 
 if choice == "2":
     clear()
