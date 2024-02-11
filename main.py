@@ -21,8 +21,8 @@ time.sleep(5)
 clear()
 
 print("""
--------------------
-| CASIO-RAYTRACER |
+-------------------------
+| CASIO fx-CG RAYTRACER |
 -------------------------
 | BY - DISEASE/CPScript |
 -------------------------
@@ -36,9 +36,10 @@ choice = input("| Make Number Selection :")
 if choice == "1":
     print("Loading...")
     clear()
-    call(["python", "r/main.py"])
+    call(["python", "asset/main.py"])
 
 if choice == "2":
+    clear()
     print("Process ending...")
 
 exit
