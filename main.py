@@ -21,23 +21,17 @@ time.sleep(5)
 clear()
 
 print("""
-
-
-
- \    /\
-  )  ( ')
- (  /  )
-  \(__)|
-CASIO-RAYTRACER
-
-------- BY-DISEASE/CPSscript --------
-
-Would you like to run the ray tracer?
-1 : YES
-2 : QUIT
-
-""") # banner
-choice = input("Make Number Selection :")
+-------------------
+| CASIO-RAYTRACER |
+-------------------------
+| BY - DISEASE/CPScript |
+-------------------------
+|
+| Would you like to run the ray-tracer?
+| 1 : YES
+| 2 : QUIT
+| """) # banner
+choice = input("| Make Number Selection :")
 
 if choice == "1":
     print("Loading...")
