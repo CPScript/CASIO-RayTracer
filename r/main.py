@@ -115,7 +115,7 @@ render_mode = 2
 running = 1
 l = 1
 need_update = 1
-screen.blit(pygame.image.load('r/Untitled.png'), (0,0))
+screen.blit(pygame.image.load(''), (0,0))
 pygame.display.flip()
 ##main loop
 while running:
