@@ -1,8 +1,13 @@
 ##imports
+import os
+from os import system
 import pygame, time
 from numba import njit
 from pygame.locals import *
 import numpy as np
+os.system('pip install pygame')
+os.system('pip install numpy')
+
 ##inits
 pygame.init()
 np.seterr(all="ignore")
@@ -115,7 +120,7 @@ render_mode = 2
 running = 1
 l = 1
 need_update = 1
-screen.blit(pygame.image.load(''), (0,0))
+screen.blit(pygame.image.load('image.png'), (0,0))
 pygame.display.flip()
 ##main loop
 while running:
